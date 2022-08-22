@@ -61,7 +61,30 @@ public class hesapmakinesi {
 
 
 
-       
+        /*
+       if (secim == 1) {
+
+
+            System.out.println("Toplam :" + (n1 + n2));
+        } else if (secim == 2) {
+            System.out.println("Çýkarma :" + (n1 - n2));
+        } else if (secim == 3) {
+            System.out.println("Çarpma :" + (n1 * n2));
+        } else if (secim == 4) {
+            if (n2!=0){
+                System.out.println("Bölme :"+(n1/n2));
+
+            }else {
+                System.out.println("Bir sayý 0 a bölünemez !");
+            }
+
+        }else {
+            System.out.println("yanlýþ seçin yaptýnýz.");
+        }
+
+
+
+         */
 
     }
 }
