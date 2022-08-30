@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class ebobEkok {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        int n1, n2, kucukSayi;
+        int ebob = 1;
+        int ekok = 1;
+        System.out.println("n1 say�s�n� girin :");
+        n1 = input.nextInt();
+        System.out.println("n2 say�s�n� girin :");
+        n2 = input.nextInt();
+
+        if (n1 > n2) {
+            kucukSayi = n1;
+        } else {
+            kucukSayi = n2;
+        }
+        int x = kucukSayi;
+        while (x >= 1) {
+            if (n1 % x == 0 && n2 % x == 0){
+                ebob=x;
+                System.out.println("Ebob :"+x);
+                break;
+            }
+            x--;
+        }
+        System.out.println("Ekok :"+(n1*n2)/ebob);
+
+    }
+}
