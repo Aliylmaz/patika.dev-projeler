@@ -11,29 +11,29 @@ public class atmProject {
         int balance = 2000;
         while (right > 0) {
 
-            System.out.print("Kullan�c� ad�n� girin :");
+            System.out.print("Kullanıcı adınızı girin :");
             userName = input.nextLine();
 
-            System.out.print("�ifreyi girin :");
+            System.out.print("Sifreyi girin :");
             password = input.nextLine();
 
             if (userName.equals("patika") && password.equals("dev123")) {
-                System.out.println("Merhaba kodluyoruz bankas�na ho�geldiniz!");
+                System.out.println("Merhaba kodluyoruz bankasana hosgeldiniz!");
 
                 do {
 
-                    System.out.println("1-Para yat�rma\n2-Para �ekme\n3-Bakiye sorgulama\n4-��k�� ");
-                    System.out.print("L�tfen yapmak istedi�iniz i�lemi se�in : ");
+                    System.out.println("1-Para yatirma\n2-Para cekme\n3-Bakiye sorgulama\n4-cikis ");
+                    System.out.print("Lutfen yapmak istediginiz islemi secin : ");
                     select = input.nextInt();
 
                     switch (select) {
                         case 1:
-                            System.out.println("Yat�rmak istedi�iniz miktar� giirn :");
+                            System.out.println("Yatirmak istediginiz miktarı giirn :");
                             int invest = input.nextInt();
                             balance += invest;
                             break;
                         case 2:
-                            System.out.println("�ekmek istde�iniz miktar� girin :");
+                            System.out.println("çekmek istdeğiniz miktarı girin :");
                             int withdraw = input.nextInt();
                             if (withdraw > balance) {
                                 System.out.println("Bakiye yetersiz!");
