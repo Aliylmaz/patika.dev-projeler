@@ -50,16 +50,16 @@ public class atmProject {
 
 
                 } while (select != 4);
-                System.out.println("Tekrar g�r��mek �zere!");
+                System.out.println("Tekrar görüşmek üzere!");
                 break;
             }else {
                 right--;
 
-                System.out.println("Hatal� kullan�c� ad� veya �ifre.Tekrar deneyin");
+                System.out.println("Hatalı kullanıcı adı veya şifre.Tekrar deneyin");
                 if (right==0){
-                    System.out.println("Kart�n�z bloke olmu�tur.L�tfen bankayla ileti�ime ge�iniz.");
+                    System.out.println("Kartınız bloke olmuştur.Lütfen bankayla iletişime geçiniz.");
                 }else {
-                    System.out.println("Kalan Hakk�n�z :"+right);
+                    System.out.println("Kalan Hakkınız :"+right);
                 }
             }
         }
