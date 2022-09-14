@@ -1,0 +1,13 @@
+public class diziOrtalamasi {
+    public static void main(String[] args) {
+        double[] ortalama = {10, 25, 30, 18, 27};
+        double sum = 0;
+        for (int i = 0; i < ortalama.length; i++) {
+            sum += ortalama[i];
+        }
+        System.out.println("Dizinin ortalaması :" + sum / ortalama.length);
+
+
+    }
+
+}
