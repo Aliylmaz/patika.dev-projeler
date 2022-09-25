@@ -6,12 +6,12 @@ public class taksimetre {
 
         double km=2.20,ucret;
         int acilis=10,mesafe;
-        System.out.println("gidilen km yi yazýnýz :" );
+        System.out.println("gidilen km yi yazÄ±nÄ±z :" );
         mesafe=input.nextInt();
 
         ucret=(mesafe*km)+acilis;
 
-        System.out.println("Ödenecek Tutar :" +(ucret>20 ?  ucret : 20)+" Türk lirasýdýr.");
+        System.out.println("Ã–denecek Tutar :" +(ucret>20 ?  ucret : 20)+" TÃ¼rk lirasÄ±dÄ±r.");
 
     }
 }
