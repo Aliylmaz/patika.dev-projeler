@@ -22,7 +22,7 @@ public class sinifgecme {
             toplamDersSayisi++;
         }
 
-        System.out.print("Türkçe notunuzu giriniz: ");
+        System.out.print("TÃ¼rkÃ§e notunuzu giriniz: ");
         turkce = input.nextInt();
         if(!(turkce <= 0 || turkce > 100)) {
             toplamNot += turkce;
@@ -36,7 +36,7 @@ public class sinifgecme {
             toplamDersSayisi++;
         }
 
-        System.out.print("Müzik notunuzu giriniz: ");
+        System.out.print("MÃ¼zik notunuzu giriniz: ");
         muzik = input.nextInt();
         if(!(muzik <= 0 || muzik > 100)) {
             toplamNot += muzik;
@@ -47,11 +47,11 @@ public class sinifgecme {
 
 
         if(ortalama <= 55) {
-            System.out.println("Geçme durumu: Kaldýnýz, seneye görüþürüz!");
+            System.out.println("GeÃ§me durumu: KaldÃ½nÃ½z, seneye gÃ¶rÃ¼Ã¾Ã¼rÃ¼z!");
         } else {
-            System.out.println("Geçme durumu: Geçtiniz, tebrik ederiz!");
+            System.out.println("GeÃ§me durumu: GeÃ§tiniz, tebrik ederiz!");
         }
 
-        System.out.println("Ortalamanýz: " + ortalama);
+        System.out.println("OrtalamanÃ½z: " + ortalama);
     }
 }
