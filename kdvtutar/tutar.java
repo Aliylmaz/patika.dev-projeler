@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 public class kdvtutar {
     public static  void main(String[]args){
@@ -7,7 +6,7 @@ public class kdvtutar {
         double urun,kdv,kdvli,kdvtut;
         boolean kdvDurumu;
 
-        System.out.print("Ürün fiyatını giriniz :");
+        System.out.print("ÃœrÃ¼n fiyatÄ±nÄ± giriniz :");
         urun=input.nextDouble();
 
 
@@ -18,14 +17,11 @@ public class kdvtutar {
         kdvtut=urun*kdv;
         kdvli=urun+kdvtut;
 
-        System.out.println("Kdv oranı :"+kdv);
-        System.out.println("Ürünün kdvsiz fiyatı :"+urun);
-        System.out.println("Ürünün kdvli fiyatı :"+kdvli);
-        System.out.println("Kdv tutarı :" +kdvtut);
+        System.out.println("Kdv oranÄ± :"+kdv);
+        System.out.println("ÃœrÃ¼nÃ¼n kdvsiz fiyatÄ± :"+urun);
+        System.out.println("ÃœrÃ¼nÃ¼n kdvli fiyatÄ± :"+kdvli);
+        System.out.println("Kdv tutarÄ± :" +kdvtut);
 
 
     }
 }
-
-
- 
