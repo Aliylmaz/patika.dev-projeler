@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ücgenalan {
+public class Ã¼cgenalan {
 
     public  static void main (String[]args){
 
@@ -9,18 +9,18 @@ public class ücgenalan {
         double alan;
 
 
-        System.out.println("1.kenar uzunluğunu girin :");
+        System.out.println("1.kenar uzunluÄŸunu girin :");
         a=input.nextInt();
-        System.out.println("2.kenar uzunluğunu girin :");
+        System.out.println("2.kenar uzunluÄŸunu girin :");
         b=input.nextInt();
-        System.out.println("3.kenar uzunluğunu girin :");
+        System.out.println("3.kenar uzunluÄŸunu girin :");
         c=input.nextInt();
 
         cevre=a+b+c;
         u=cevre/2;
 
         alan=Math.sqrt(u * (u - a)* (u - b) * (u - c));
-        System.out.println("Üçgenin alanı :"+alan);
+        System.out.println("ÃœÃ§genin alanÄ± :"+alan);
 
 
     }
