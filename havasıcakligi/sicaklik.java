@@ -26,7 +26,7 @@ public class havasicakligi {
             System.out.println("Yüzebilirsin.");
 
         }else  {
-            System.out.println("Böyle bir sýcaklýk deðeri yok");
+            System.out.println("Böyle bir sıcaklık değeri yok");
         }
 
 
