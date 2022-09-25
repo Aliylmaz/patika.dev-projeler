@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class çiftVeDordunKatı {
+public class ciftVeDordunKati {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -9,7 +9,7 @@ public class çiftVeDordunKatı {
 
 
         do {
-            System.out.println("Sayı girin :");
+            System.out.println("SayÄ± girin :");
             a = input.nextInt();
             if ( a%4==0) {
                 toplam += a;
@@ -18,7 +18,7 @@ public class çiftVeDordunKatı {
             }
         } while (a %2==0);
 
-        System.out.println("Çift ve 4'ün katı sayıların toplamı  :" + toplam);
+        System.out.println("Ã‡ift ve 4'Ã¼n katÄ± sayÄ±larÄ±n toplamÄ±  :" + toplam);
     }
 }
 
