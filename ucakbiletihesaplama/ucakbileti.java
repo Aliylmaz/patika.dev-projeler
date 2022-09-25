@@ -6,13 +6,13 @@ public class ucakbiletihesaplama {
         int mesafe, yas, tip, tutar;
         double yasindirimorani;
 
-        System.out.print("Mesafeyi km türünden girin :");
+        System.out.print("Mesafeyi km tÃ¼rÃ¼nden girin :");
         mesafe = input.nextInt();
 
-        System.out.print("Yaşınızı girin :");
+        System.out.print("YaÅŸÄ±nÄ±zÄ± girin :");
         yas = input.nextInt();
 
-        System.out.print("Yolculuk tipini girin : (\"1=> tek yön\" \"2=> gidiş dönüş\") ");
+        System.out.print("Yolculuk tipini girin : (\"1=> tek yÃ¶n\" \"2=> gidiÅŸ dÃ¶nÃ¼ÅŸ\") ");
         tip = input.nextInt();
 
 
@@ -43,12 +43,12 @@ public class ucakbiletihesaplama {
             toplamTutar=indirimlitutar;
         }
             System.out.println("Normal tutar :"+normaltutar);
-            System.out.println("Yaş indirimi :"+yasindirimi);
-            System.out.println("İndirimli tutar :"+indirimlitutar);
-            System.out.println("Gidiş dönüş indirimi :"+gidisdonusindirim);
-            System.out.println("Toplam tutar(indirimli tutar-gidiş dünüş bilet indirimi)*2 :"+toplamTutar);
+            System.out.println("YaÅŸ indirimi :"+yasindirimi);
+            System.out.println("Ä°ndirimli tutar :"+indirimlitutar);
+            System.out.println("GidiÅŸ dÃ¶nÃ¼ÅŸ indirimi :"+gidisdonusindirim);
+            System.out.println("Toplam tutar(indirimli tutar-gidiÅŸ dÃ¼nÃ¼ÅŸ bilet indirimi)*2 :"+toplamTutar);
         }else {
-            System.out.println("Hatalı veri girdiniz.");
+            System.out.println("HatalÄ± veri girdiniz.");
         }
     }
 }
