@@ -1,17 +1,17 @@
 import java.util.Scanner;
 
-public class sıralama {
+public class sÃ½ralama {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 
         int a, b, c;
 
-        System.out.print("1.sayıyı girin :");
+        System.out.print("1.sayÄ±yÄ± girin :");
         a = input.nextInt();
-        System.out.print("2.sayıyı girin :");
+        System.out.print("2.sayÄ±yÄ± girin :");
         b = input.nextInt();
-        System.out.print("3.sayıyı girin :");
+        System.out.print("3.sayÄ±yÄ± girin :");
         c = input.nextInt();
 
 
