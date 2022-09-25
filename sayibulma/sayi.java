@@ -7,7 +7,7 @@ public class sayibulma {
         int k, adet = 0, toplam = 0;
 
         double ortalama;
-        System.out.println("Sayý girin :");
+        System.out.println("SayÄ± girin :");
         k = input.nextInt();
         for (int i = 0; i <= k; i++) {
             if (i % 3 == 0 && i % 4 == 0) {
