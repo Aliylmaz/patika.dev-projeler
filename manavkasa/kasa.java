@@ -7,35 +7,35 @@ public class manavkasa {
         double armut=2.14 ,elma=3.67, domates=1.11, muz=0.95,patlican=5,kg;
         double armutkg,elmakg,domateskg,muzkg,patlicankg,total;
 
-        System.out.print("Kaç kilo armut aldınız :");
+        System.out.print("KaÃ§ kilo armut aldÄ±nÄ±z :");
         kg=input.nextDouble();
         armutkg=kg*armut;
 
-        System.out.print("Kaç kilo elma aldınız :");
+        System.out.print("KaÃ§ kilo elma aldÄ±nÄ±zz :");
         kg=input.nextDouble();
         elmakg=kg*elma;
 
-        System.out.print("Kaç kilo domates aldınız :");
+        System.out.print("KaÃ§ kilo domates aldÄ±nÄ±z :");
         kg=input.nextDouble();
         domateskg=kg*domates;
 
-        System.out.print("Kaç kilo muz aldınız :");
+        System.out.print("KaÃ§ kilo muz aldÄ±nÄ±z :");
         kg=input.nextDouble();
         muzkg=kg*muz;
 
-        System.out.print("Kaç kilo patlıcan aldınız :");
+        System.out.print("KaÃ§ kilo patlÃ½can aldÄ±nÄ±z :");
         kg=input.nextDouble();
         patlicankg=kg*patlican;
 
-        System.out.println("Armut fiyatı :"+armutkg);
-        System.out.println("Elma fiyatı :"+elmakg);
-        System.out.println("Domates fiyatı :"+domateskg);
-        System.out.println("Muz fiyatı :"+muzkg);
-        System.out.println("Patlıcan fiyatı :"+patlicankg);
+        System.out.println("Armut fiyatÄ± :"+armutkg);
+        System.out.println("Elma fiyatÄ± :"+elmakg);
+        System.out.println("Domates fiyatÄ± :"+domateskg);
+        System.out.println("Muz fiyatÄ± :"+muzkg);
+        System.out.println("PatlÃ½can fiyatÄ± :"+patlicankg);
 
 
         total=patlicankg+muzkg+domateskg+elmakg+armutkg;
-        System.out.println("Toplam fiyat tutarı :"+total);
+        System.out.println("Toplam fiyat tutarÄ± :"+total);
 
 
 
